@@ -1,0 +1,84 @@
+html {
+    box-sizing: border-box
+}
+
+*,*:before,*:after {
+    box-sizing: inherit
+}
+
+body, h1, h2, h3, h4, h5, h6 {
+    font-family: "Karma", sans-serif;
+    line-height: 1.5;
+}
+
+.button {
+    border: none;
+    display: inline-block;
+    padding: 8px 16px;
+    vertical-align: middle;
+    overflow: hidden;
+    text-decoration: none;
+    color: inherit;
+    background-color: inherit;
+    text-align: center;
+    cursor: pointer;
+    white-space: nowrap;
+}
+
+.button:hover {
+    background-color: #ccc;
+    cursor: pointer;
+}
+
+.button-hover-black:hover {
+    background-color: #000;
+    color: #fff;
+    cursor: pointer;
+}
+
+.text-center {
+    text-align: center !important;
+    line-height: 100%;
+}
+
+.padding-t-b-16 {
+    padding-top: 16px !important;
+    padding-bottom: 16px !important;
+}
+
+.padding-l-r-8 {
+    padding-left: 8px !important;
+    padding-right: 8px !important;
+}
+
+.row {
+    display: flex;
+}
+
+.row-center {
+    justify-content: center;
+}
+
+.row-between {
+    justify-content: space-between;
+}
+
+.col {
+    display: inline-block;
+} 
+
+.col-full {
+    flex-basis: 100%;
+}
+
+.col-two {
+    flex-basis: 50%;
+}
+
+.col-third {
+    flex-basis: calc(100% / 3);
+}
+
+.col-four {
+    flex-basis: 25%;
+}
