@@ -1,10 +1,15 @@
 /* Begin: Header section */
 #header {
-    height: 3rem;
+    height: 4.25rem;
     position: fixed;
+    top: 0;
     right: 0;
     left: 0;
+    padding-top: 10px;
+    padding-bottom: 10px;
     font-size: 1.5rem;
+    background-color: #fff;
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.1);
 }
 
 #header ul {
@@ -16,3 +21,37 @@
 }
 
 /* End: Header section */
+
+/* Begin: Content section */
+#content {
+    margin-top: 100px;
+    max-width: 1100px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#content .content-img {
+    width: 100%;
+    object-fit: cover;
+}
+
+#content .pagination {
+    max-width: 266px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#about .about-header {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+#about .chef-img {
+    display: block;
+    margin: auto;
+}
+
+#about .about-sub-heading {
+    font-size: 1.25rem;
+}
+
