@@ -1,3 +1,13 @@
+* {
+    margin: 0;
+}
+
+#main {
+    max-width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
 /* Begin: Header section */
 #header {
     height: 4.25rem;
@@ -16,8 +26,31 @@
     margin: 0;
 }
 
-#header ul li {
-    display: none;
+.sidenav {
+    padding-left: 0px;
+    height: 100%; /* 100% Full-height */
+    width: 0; /* 0 width - change this with JavaScript */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Stay on top */
+    top: 0; /* Stay at the top */
+    left: 0;
+    background-color: #fff; /* Black*/
+    overflow-x: hidden; /* Disable horizontal scroll */
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.1);
+    transition: 0.5s; /* 0.5 second transition effect to slide in the sidenav */
+}
+
+.sidenav li {
+    padding: 20px;
+    text-decoration: none;
+    max-height: 68px;
+    color: #000;
+    display: block;
+    transition: 0.3s;
+}
+
+.sidenav li:hover {
+    background-color: #ccc;
 }
 
 /* End: Header section */
@@ -32,6 +65,8 @@
 
 #content .content-img {
     width: 100%;
+    max-width: 100%;
+    min-width: 120px;
     object-fit: cover;
 }
 
@@ -40,7 +75,9 @@
     margin-left: auto;
     margin-right: auto;
 }
+/* End: Content section */
 
+/* Begin: About section */
 #about .about-header {
     margin-top: 10px;
     margin-bottom: 10px;
@@ -49,9 +86,27 @@
 #about .chef-img {
     display: block;
     margin: auto;
+    max-width: 100%;
 }
 
 #about .about-sub-heading {
     font-size: 1.25rem;
 }
+/* End: About section */
 
+/* Begin: Footer section */
+#footer .footer-text {
+    font-size: 0.938rem;
+}
+
+#footer .footer-img {
+    display: inline-block;
+    height: 50px;
+    margin-right: 16px;
+    vertical-align: text-bottom;
+}
+
+#footer hr {
+    margin-top: 0;
+    margin-bottom: 0;
+}
